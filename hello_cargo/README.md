@@ -14,6 +14,8 @@ Install the runtime:
 brew install wasmer
 ```
 
+Another notable runtime is [`wasmtime`](https://github.com/BytecodeAlliance/wasmtime)
+
 Build the example:
 ```bash
 cargo build --release --target wasm32-wasi
